@@ -276,7 +276,7 @@ async function smsBOOM(numara, miktar) {
     }
 
     for (let i = 0; i < miktar; i++) {
-        await delay(5);
+        await delay(1);
         send(numara);
     }
 }

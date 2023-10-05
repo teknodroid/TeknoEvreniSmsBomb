@@ -1,7 +1,7 @@
 const rl = require('readline-sync');
 const colors = require('colors');
 const title = require('./modules/title.js');
-const fastBomber = require('./modules/sms.js');
+const TeknoEvreniSmsBomb = require('./modules/sms.js');
 
 title('Hosgeldiniz');
 
@@ -22,4 +22,4 @@ title(`Telefon: ${telefon} - Miktar: ${miktar}`);
 
 console.log('SMS Gonderiliyor...'.rainbow);
 
-fastBomber(telefon, miktar);
+TeknoEvreniSmsBomb(telefon, miktar);

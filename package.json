@@ -1,5 +1,5 @@
 {
-  "name": "fast-bomber",
+  "name": "TeknoEvreniSmsBomb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "Can & FastUptime",
+  "author": "Can & TeknoEvreniSmsBomb",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
